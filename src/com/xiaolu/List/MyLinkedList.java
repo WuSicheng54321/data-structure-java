@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
 /**
  * Created by Administrator on 2016/7/29.
  */
-public class MyLinkedList<T> implements Iterable<T>{
+public class MyLinkedList<T extends Comparable<? super T>> implements Iterable<T>{
 
     private int size;
     private int modCount=0;//对链表操作的次数
@@ -27,6 +27,13 @@ public class MyLinkedList<T> implements Iterable<T>{
 
     public MyLinkedList() {
         clear();
+    }
+
+    public MyLinkedList(T[] t){
+        clear();
+        for(int i=0;i<t.length;i++){
+            this.append(t[i]);
+        }
     }
 
     public void clear(){
@@ -106,6 +113,19 @@ public class MyLinkedList<T> implements Iterable<T>{
             p=end.prev;
             for(int i=getSize()-1;i>idx-1;i--){
                 p=p.prev;
+            }
+        }
+        return p;
+    }
+    public Node<T> sort(){
+        Node<T> p=begin.next;
+        Node<T> i;
+        Node<T> j;
+        for(i=p;i.next!=null;i=i.next){
+            for(j=i.next;j.next!=null;j=j.next){
+                T swap=i.data;
+                i.data=j.data;
+                j.data=swap;
             }
         }
         return p;

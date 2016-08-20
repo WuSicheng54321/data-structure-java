@@ -9,8 +9,8 @@ import java.util.Iterator;
  */
 public class MyLinkedListTestTest {
     @Test
-    public void testLinkedList(){
-        MyLinkedList<Integer> linkedList=new MyLinkedList<>();
+    public void testLinkedList() {
+        MyLinkedList<Integer> linkedList = new MyLinkedList<>();
         linkedList.append(1);
         linkedList.append(2);
         linkedList.append(3);
@@ -41,5 +41,4 @@ public class MyLinkedListTestTest {
         System.out.println(linkedList.getSize());
         linkedList.show();*/
     }
-
 }
