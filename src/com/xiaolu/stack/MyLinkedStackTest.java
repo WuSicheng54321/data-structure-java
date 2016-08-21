@@ -1,13 +1,8 @@
-package com.xiaolu.Stack;
+package com.xiaolu.stack;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Pattern;
-import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
-import com.sun.org.apache.xml.internal.utils.res.IntArrayWrapper;
 import org.junit.Test;
 
 import java.util.Scanner;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by Administrator on 2016/7/30.

@@ -1,4 +1,4 @@
-package com.xiaolu.List;
+package com.xiaolu.list;
 
 import org.junit.Test;
 

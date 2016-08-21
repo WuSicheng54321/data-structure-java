@@ -1,8 +1,6 @@
-package com.xiaolu.Queue;
+package com.xiaolu.queue;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by Administrator on 2016/8/2.

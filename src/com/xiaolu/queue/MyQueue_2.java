@@ -1,6 +1,6 @@
-package com.xiaolu.Queue;
+package com.xiaolu.queue;
 
-import com.xiaolu.List.MyArrayList;
+import com.xiaolu.list.MyArrayList;
 
 /**
  * Created by Administrator on 2016/8/13.

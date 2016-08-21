@@ -1,4 +1,4 @@
-package com.xiaolu.Stack;
+package com.xiaolu.stack;
 
 import org.junit.Test;
 

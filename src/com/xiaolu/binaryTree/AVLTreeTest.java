@@ -1,8 +1,6 @@
-package com.xiaolu.BinaryTree;
+package com.xiaolu.binaryTree;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by Administrator on 2016/8/14.

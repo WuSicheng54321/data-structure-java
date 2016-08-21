@@ -1,4 +1,4 @@
-package com.xiaolu.BinaryTree;
+package com.xiaolu.binaryTree;
 
 import org.jetbrains.annotations.Contract;
 

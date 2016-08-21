@@ -1,6 +1,4 @@
-package com.xiaolu.Queue;
-
-import com.xiaolu.List.MyArrayList;
+package com.xiaolu.queue;
 
 import java.util.Arrays;
 

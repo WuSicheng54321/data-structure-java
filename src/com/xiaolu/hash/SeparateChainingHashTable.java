@@ -1,4 +1,4 @@
-package com.xiaolu.Hash;
+package com.xiaolu.hash;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.xiaolu.Stack;
+package com.xiaolu.stack;
 
-import com.xiaolu.List.MyArrayList;
+import com.xiaolu.list.MyArrayList;
 
 /**
  * Created by Administrator on 2016/7/29.

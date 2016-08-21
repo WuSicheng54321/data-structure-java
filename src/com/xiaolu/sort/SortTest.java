@@ -24,12 +24,12 @@ public class SortTest {
     }
     @Test
     public void insertion() throws Exception {
-        /*sort.insertion(integers);
+        /*sort.insertion_2(integers);
         System.out.print(Arrays.asList(integers));*/
         init();
         doubleSort.insertion(doubles);
         System.out.print(Arrays.asList(doubles));
-    }
+}
 
     @Test
     public void selection() throws Exception {
